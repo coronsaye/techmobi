@@ -21,7 +21,7 @@ namespace TECHMOBI_BUSINESS_SERVICES_API.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("tmmoney", throwIfV1Schema: false)
         {
         }
         
